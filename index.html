@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>LearnEnglish</title>
+  </head>
+  <body>
+    <!-- <button id="settings-btn" class="settings-btn">
+      <i class="fas fa-cog"></i>
+    </button> -->
+    <!-- <div class="settings hide" id="settings">
+      <form action="" id="settings-form">
+        <div>
+          <label for="difficulty">Difficulty</label>
+          <select name="" id="difficulty">
+            <option value="easy">Easy</option>
+            <option value="medium">Medium</option>
+            <option value="hard">Hard</option>
+          </select>
+        </div>
+      </form>
+    </div> -->
+
+    <div class="container">
+      <h2>👩‍💻 English 👨‍💻</h2>
+      <div class="content-text jus-between">
+        <p class="word-container">Nghĩa: <span id="words">xin chào bạn từ này dài lắm</span></p>
+        <p class="score-container">từ đã học: <span id="score">0</span></p>
+      </div>
+      <div class="content-text">
+        <p class="prononce-container">Phiên âm: <span id="prononce"></span></p>
+        <p class="word-type-container">Loại từ: <span id="word-type"></span></p>
+      </div>
+      <div class="hint-block">
+        <button id="btn" class="btn">Xem từ</button>
+        <p class="hint hide"></p>
+      </div>
+      <span class="audio-block">Spelling:<audio controls id="audio"></audio> </span>
+      <p class="ma-10">Nhập từ:</p>
+
+      <input type="text" id="text" autocomplete="off" placeholder="Type the word here..." />
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
